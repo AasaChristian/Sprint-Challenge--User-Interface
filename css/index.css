@@ -71,6 +71,37 @@ p {
     margin: 0 auto;
 }
 
+
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 2% 0%;
+    align-items: center;
+}
+.topHeader img{
+    display: flex;
+    justify-content: flex-start;
+}
+.topHeader nav{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-top: 3%;
+}
+.topHeader nav a{
+    color: black;
+    font-style: unset;
+    font-size: 15px;
+    
+}
+.bottomHeader{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomHeader img{
+    padding: 2% 2% 2% 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
