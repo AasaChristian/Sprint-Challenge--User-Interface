@@ -262,3 +262,72 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.top{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.border1{
+    margin-top:30px;
+    margin-bottom:30px	
+}
+.border2{
+    margin-top:20px;
+    margin-bottom:20px	
+}
+
+button{
+    margin: 3% 65% 3% 3%;
+	background-color: white;
+	font-size: 10px;
+	border-radius: 5px;
+}
+.topMiddle{
+    display: flex;
+    justify-content: space-between
+}
+.strategy1{
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+} 
+
+.howWeWork{
+
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+}
+
+
+.bottomMiddle{
+    display: flex;
+    justify-content: space-between
+}
+.places{
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+} 
+
+.collab{
+
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-bottom:30px
+    
+}
