@@ -70,7 +70,36 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.topHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 2% 2% 0%;
+    align-items: center;
+}
+.topHeader img{
+    display: flex;
+    justify-content: flex-start;
+}
+.topHeader nav{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    padding-top: 3%;
+}
+.topHeader nav a{
+    color: black;
+    font-style: unset;
+    font-size: 15px;
+    
+}
+.bottomHeader{
+    display: flex;
+    justify-content: center;
+}
 
+.bottomHeader img{
+    padding: 2% 2% 2% 2%;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -101,17 +130,106 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +261,73 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.border1{
+    margin-top:30px;
+    margin-bottom:30px	
+}
+.border2{
+    margin-top:20px;
+    margin-bottom:20px	
+}
+
+button{
+    margin: 3% 65% 3% 3%;
+	background-color: white;
+	font-size: 10px;
+	border-radius: 5px;
+}
+.topMiddle{
+    display: flex;
+    justify-content: space-between
+}
+.strategy1{
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+} 
+
+.howWeWork{
+
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+}
+
+
+.bottomMiddle{
+    display: flex;
+    justify-content: space-between
+}
+.places{
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+} 
+
+.collab{
+
+    display: flex;
+	justify-content: flex-start;
+    flex-direction: column;
+    width: 48%;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    margin-bottom:30px
+    
 }
